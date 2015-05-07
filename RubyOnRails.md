@@ -7,6 +7,7 @@
 [FactoryGirl with polymorphic associations](http://markcharlesdesign.blogspot.com/2013/06/factorygirl-with-polymorphic.html)  
 [Redirecting to Custom 404 and 500 Pages in Rails](http://easyactiverecord.com/blog/2014/08/19/redirecting-to-custom-404-and-500-pages-in-rails/)  
 [Rails cache with examples](http://www.codelearn.org/blog/rails-cache-with-examples)  
+[How key-based cache expiration works](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)
 
 
 
