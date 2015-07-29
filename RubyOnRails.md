@@ -9,8 +9,8 @@
 [Rails cache with examples](http://www.codelearn.org/blog/rails-cache-with-examples)  
 [How key-based cache expiration works](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)  
 [How to use Rails migrations and schema](http://technotes.iangreenleaf.com/posts/2013-09-10-rails-migrations-and-schema.html)  
-[Automated Tasks with Cron and Rake](http://tutorials.jumpstartlab.com/topics/systems/automation.html)
-
+[Automated Tasks with Cron and Rake](http://tutorials.jumpstartlab.com/topics/systems/automation.html)  
+[The Secret to Rails OO Design](http://blog.steveklabnik.com/posts/2011-09-06-the-secret-to-rails-oo-design)
 
 
 
