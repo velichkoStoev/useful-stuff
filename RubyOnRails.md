@@ -10,7 +10,8 @@
 [How key-based cache expiration works](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)  
 [How to use Rails migrations and schema](http://technotes.iangreenleaf.com/posts/2013-09-10-rails-migrations-and-schema.html)  
 [Automated Tasks with Cron and Rake](http://tutorials.jumpstartlab.com/topics/systems/automation.html)  
-[The Secret to Rails OO Design](http://blog.steveklabnik.com/posts/2011-09-06-the-secret-to-rails-oo-design)
+[The Secret to Rails OO Design](http://blog.steveklabnik.com/posts/2011-09-06-the-secret-to-rails-oo-design)  
+[Top 10 mistakes that Rails programmers make](http://www.toptal.com/ruby-on-rails/top-10-mistakes-that-rails-programmers-make)
 
 
 
