@@ -12,7 +12,8 @@
 [Automated Tasks with Cron and Rake](http://tutorials.jumpstartlab.com/topics/systems/automation.html)  
 [The Secret to Rails OO Design](http://blog.steveklabnik.com/posts/2011-09-06-the-secret-to-rails-oo-design)  
 [Top 10 mistakes that Rails programmers make](http://www.toptal.com/ruby-on-rails/top-10-mistakes-that-rails-programmers-make)  
-[The Vital Guide to Ruby on Rails Interviewing](http://www.toptal.com/ruby-on-rails#nPlus1Queries)
+[The Vital Guide to Ruby on Rails Interviewing](http://www.toptal.com/ruby-on-rails#nPlus1Queries)  
+[Escape velocity in Github](https://github.com/blog/1475-escape-velocity)
 
 
 
