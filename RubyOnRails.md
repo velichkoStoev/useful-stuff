@@ -15,6 +15,7 @@
 [The Vital Guide to Ruby on Rails Interviewing](http://www.toptal.com/ruby-on-rails#nPlus1Queries)  
 [Escape velocity in Github](https://github.com/blog/1475-escape-velocity)  
 [Mocking with RSpec: Doubles and Expectations](https://semaphoreci.com/community/tutorials/mocking-with-rspec-doubles-and-expectations)  
+[Keeping your Rails controllers DRY with services](https://blog.engineyard.com/2014/keeping-your-rails-controllers-dry-with-services)
 
 
 
