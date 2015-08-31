@@ -16,11 +16,11 @@
 [Escape velocity in Github](https://github.com/blog/1475-escape-velocity)  
 [Mocking with RSpec: Doubles and Expectations](https://semaphoreci.com/community/tutorials/mocking-with-rspec-doubles-and-expectations)  
 [Keeping your Rails controllers DRY with services](https://blog.engineyard.com/2014/keeping-your-rails-controllers-dry-with-services)  
-[How Rails sessions work](http://www.justinweiss.com/blog/2015/03/17/how-rails-sessions-work/)
 [Where do I put my code?](http://codefol.io/posts/Where-Do-I-Put-My-Code)  
 [How to rename Rails controller and model (StackOverflow)](http://stackoverflow.com/questions/11924124/how-to-rename-rails-controller-and-model-in-a-project)  
 [How to use Devise in Rails for authentication](http://www.gotealeaf.com/blog/how-to-use-devise-in-rails-for-authentication)  
-[Where are session variables stored in Rails? (StackOverflow)](http://stackoverflow.com/questions/7318253/where-are-session-variables-stored-in-rails)
+[Where are session variables stored in Rails? (StackOverflow)](http://stackoverflow.com/questions/7318253/where-are-session-variables-stored-in-rails)  
+[How Rails sessions work](http://www.justinweiss.com/blog/2015/03/17/how-rails-sessions-work/)
 
 
 
