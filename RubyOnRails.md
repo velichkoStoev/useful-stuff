@@ -20,7 +20,8 @@
 [How to rename Rails controller and model (StackOverflow)](http://stackoverflow.com/questions/11924124/how-to-rename-rails-controller-and-model-in-a-project)  
 [How to use Devise in Rails for authentication](http://www.gotealeaf.com/blog/how-to-use-devise-in-rails-for-authentication)  
 [Where are session variables stored in Rails? (StackOverflow)](http://stackoverflow.com/questions/7318253/where-are-session-variables-stored-in-rails)  
-[How Rails sessions work](http://www.justinweiss.com/blog/2015/03/17/how-rails-sessions-work/)
+[How Rails sessions work](http://www.justinweiss.com/blog/2015/03/17/how-rails-sessions-work/)  
+[Why use 'bundle exec'? (StackOverflow)](http://stackoverflow.com/questions/8275885/use-bundle-exec-rake-or-just-rake)
 
 
 
