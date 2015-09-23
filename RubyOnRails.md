@@ -23,7 +23,8 @@
 [How Rails sessions work](http://www.justinweiss.com/blog/2015/03/17/how-rails-sessions-work/)  
 [Why use 'bundle exec'? (StackOverflow)](http://stackoverflow.com/questions/8275885/use-bundle-exec-rake-or-just-rake)  
 [What's the 'environment' task in Rake? (StackOverflow)](http://stackoverflow.com/questions/7044714/whats-the-environment-task-in-rake)  
-[The perils of uniqueness validations](https://robots.thoughtbot.com/the-perils-of-uniqueness-validations)
+[The perils of uniqueness validations](https://robots.thoughtbot.com/the-perils-of-uniqueness-validations)  
+[Gotcha with find_each and find_in_batches](http://www.davedupre.com/blog/2009/05/20/gotcha-with-find_each-and-find_in_batches)
 
 
 
