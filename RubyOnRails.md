@@ -24,7 +24,8 @@
 [Why use 'bundle exec'? (StackOverflow)](http://stackoverflow.com/questions/8275885/use-bundle-exec-rake-or-just-rake)  
 [What's the 'environment' task in Rake? (StackOverflow)](http://stackoverflow.com/questions/7044714/whats-the-environment-task-in-rake)  
 [The perils of uniqueness validations](https://robots.thoughtbot.com/the-perils-of-uniqueness-validations)  
-[Gotcha with find_each and find_in_batches](http://www.davedupre.com/blog/2009/05/20/gotcha-with-find_each-and-find_in_batches)
+[Gotcha with find_each and find_in_batches](http://www.davedupre.com/blog/2009/05/20/gotcha-with-find_each-and-find_in_batches)  
+[Use Time.zone.now instead if Time.now](http://rails-bestpractices.com/posts/2014/10/22/use-time-zone-now-instead-of-time-now/)
 
 
 
