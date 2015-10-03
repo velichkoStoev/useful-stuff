@@ -1,4 +1,5 @@
 [Installing Rails 4.2](http://railsapps.github.io/installing-rails.html)  
+[How To Setup Ruby on Rails with Postgres](https://www.digitalocean.com/community/tutorials/how-to-setup-ruby-on-rails-with-postgres)  
 [Understanding MVC in Rails](http://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/)  
 [Sessions, cookies, flash, authentication, devise](http://www.theodinproject.com/ruby-on-rails/sessions-cookies-and-authentication)  
 [Better specs (RSpec guide)](http://betterspecs.org/)  
