@@ -28,5 +28,5 @@
 [Gotcha with find_each and find_in_batches](http://www.davedupre.com/blog/2009/05/20/gotcha-with-find_each-and-find_in_batches)  
 [Use Time.zone.now instead of Time.now](http://rails-bestpractices.com/posts/2014/10/22/use-time-zone-now-instead-of-time-now/)  
 [Add custom fields to your Devise views](http://jacopretorius.net/2014/03/adding-custom-fields-to-your-devise-user-model-in-rails-4.html)  
-[Delete Paperclip attachment](http://stackoverflow.com/questions/4435826/rails-paperclip-how-to-delete-attachment)
+[Delete Paperclip attachment (StackOverflow)](http://stackoverflow.com/questions/4435826/rails-paperclip-how-to-delete-attachment)
 
