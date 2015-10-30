@@ -29,5 +29,6 @@
 [Use Time.zone.now instead of Time.now](http://rails-bestpractices.com/posts/2014/10/22/use-time-zone-now-instead-of-time-now/)  
 [Add custom fields to your Devise views](http://jacopretorius.net/2014/03/adding-custom-fields-to-your-devise-user-model-in-rails-4.html)  
 [Delete Paperclip attachment (StackOverflow)](http://stackoverflow.com/questions/4435826/rails-paperclip-how-to-delete-attachment)  
-[Rails 4: A look at Turbolinks](http://blog.teamtreehouse.com/rails-4-a-look-at-turbolinks)
+[Rails 4: A look at Turbolinks](http://blog.teamtreehouse.com/rails-4-a-look-at-turbolinks)  
+[let vs let!](https://www.relishapp.com/rspec/rspec-core/v/2-5/docs/helper-methods/let-and-let)
 
