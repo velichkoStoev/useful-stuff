@@ -31,5 +31,5 @@
 [Delete Paperclip attachment (StackOverflow)](http://stackoverflow.com/questions/4435826/rails-paperclip-how-to-delete-attachment)  
 [Rails 4: A look at Turbolinks](http://blog.teamtreehouse.com/rails-4-a-look-at-turbolinks)  
 [let vs let!](https://www.relishapp.com/rspec/rspec-core/v/2-5/docs/helper-methods/let-and-let)  
-[Gem Pessimistic Operator](https://robots.thoughtbot.com/rubys-pessimistic-operator)
-
+[Gem Pessimistic Operator](https://robots.thoughtbot.com/rubys-pessimistic-operator)  
+[What is the use of secret_key_base in Rails 4? (StackOverflow)](http://stackoverflow.com/questions/25426940/what-is-the-use-of-secret-key-base-in-rails-4)
