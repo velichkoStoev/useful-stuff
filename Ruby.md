@@ -4,4 +4,5 @@
 [The difference between Ruby symbols and strings](http://www.reactive.io/tips/2009/01/11/the-difference-between-ruby-symbols-and-strings/)  
 [Exceptions, Catch, and Throw](http://phrogz.net/programmingruby/tut_exceptions.html)  
 ['each' vs 'map' (StackOverflow)](http://stackoverflow.com/questions/5254128/arrayeach-vs-arraymap)  
-['and'/'or' VS '&&'](https://www.tinfoilsecurity.com/blog/ruby-demystified-and-vs)
+['and'/'or' VS '&&'](https://www.tinfoilsecurity.com/blog/ruby-demystified-and-vs)  
+[Understanding Rack Apps and middleware](https://blog.engineyard.com/2015/understanding-rack-apps-and-middleware)
