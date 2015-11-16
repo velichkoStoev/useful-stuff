@@ -6,4 +6,5 @@
 ['each' vs 'map' (StackOverflow)](http://stackoverflow.com/questions/5254128/arrayeach-vs-arraymap)  
 ['and'/'or' VS '&&'](https://www.tinfoilsecurity.com/blog/ruby-demystified-and-vs)  
 [Understanding Rack Apps and middleware](https://blog.engineyard.com/2015/understanding-rack-apps-and-middleware)  
-[Self in Ruby](http://www.jimmycuadra.com/posts/self-in-ruby/)
+[Self in Ruby](http://www.jimmycuadra.com/posts/self-in-ruby/)  
+[-> operator (StackOverflow)](http://stackoverflow.com/questions/8476627/what-do-you-call-rubys-operator)
