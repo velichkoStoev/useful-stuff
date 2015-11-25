@@ -35,4 +35,5 @@
 [What is the use of secret_key_base in Rails 4? (StackOverflow)](http://stackoverflow.com/questions/25426940/what-is-the-use-of-secret-key-base-in-rails-4)  
 [Factory Girl tips](http://arjanvandergaag.nl/blog/factory_girl_tips.html)  
 [spec_helper vs rails_helper](http://stackoverflow.com/questions/24145329/how-is-spec-rails-helper-rb-different-from-spec-spec-helper-rb-do-i-need-it)  
-[Delegating methods](http://simonecarletti.com/blog/2009/12/inside-ruby-on-rails-delegate/)
+[Delegating methods](http://simonecarletti.com/blog/2009/12/inside-ruby-on-rails-delegate/)  
+[update vs update_all vs update_attribute vs update_attributes](https://priyankapathak.wordpress.com/2010/08/21/difference-between-active-record-methods-update-update_all-update_attribute-update_attributes/)
