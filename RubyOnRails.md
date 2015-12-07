@@ -7,23 +7,23 @@
 [Where do I put my code?](http://codefol.io/posts/Where-Do-I-Put-My-Code)  
 [How to rename Rails controller and model (StackOverflow)](http://stackoverflow.com/questions/11924124/how-to-rename-rails-controller-and-model-in-a-project)  
 
-### Authentication & Authorization
+## Authentication & Authorization
 [Sessions, cookies, flash, authentication, devise](http://www.theodinproject.com/ruby-on-rails/sessions-cookies-and-authentication)  
 [How to use Devise in Rails for authentication](http://www.gotealeaf.com/blog/how-to-use-devise-in-rails-for-authentication)  
 [Where are session variables stored in Rails? (StackOverflow)](http://stackoverflow.com/questions/7318253/where-are-session-variables-stored-in-rails)  
 [How Rails sessions work](http://www.justinweiss.com/blog/2015/03/17/how-rails-sessions-work/)  
 
-### Security
+## Security
 [What is the use of secret_key_base in Rails 4? (StackOverflow)](http://stackoverflow.com/questions/25426940/what-is-the-use-of-secret-key-base-in-rails-4)  
 
-### Validations
+## Validations
 [The perils of uniqueness validations](https://robots.thoughtbot.com/the-perils-of-uniqueness-validations)  
 
-### Associations
+## Associations
 [Understanding polymorphic associations in Rails](http://www.gotealeaf.com/blog/understanding-polymorphic-associations-in-rails)  
 [Belongs to and presense validation](http://railsguides.net/belongs-to-and-presence-validation-rule1/)  
 
-### Routing
+## Routing
 [Redirecting to Custom 404 and 500 Pages in Rails](http://easyactiverecord.com/blog/2014/08/19/redirecting-to-custom-404-and-500-pages-in-rails/)  
 
 ## Views
