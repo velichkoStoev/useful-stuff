@@ -47,7 +47,7 @@
 ## Automation
 [Automated Tasks with Cron and Rake](http://tutorials.jumpstartlab.com/topics/systems/automation.html)  
 
-## Good practices, patterns and optimizations
+## Good practices and optimizations
 [Keeping your Rails controllers DRY with services](https://blog.engineyard.com/2014/keeping-your-rails-controllers-dry-with-services)  
 [The Secret to Rails OO Design](http://blog.steveklabnik.com/posts/2011-09-06-the-secret-to-rails-oo-design)  
 [Top 10 mistakes that Rails programmers make](http://www.toptal.com/ruby-on-rails/top-10-mistakes-that-rails-programmers-make)  
@@ -56,6 +56,10 @@
 [Use Time.zone.now instead of Time.now](http://rails-bestpractices.com/posts/2014/10/22/use-time-zone-now-instead-of-time-now/)  
 [Delegating methods](http://simonecarletti.com/blog/2009/12/inside-ruby-on-rails-delegate/)  
 [update vs update_all vs update_attribute vs update_attributes](https://priyankapathak.wordpress.com/2010/08/21/difference-between-active-record-methods-update-update_all-update_attribute-update_attributes/)  
+
+## Design Patterns
+[Hexagonal architecture](http://victorsavkin.com/post/42542190528/hexagonal-architecture-for-rails-developers)  
+[Repository pattern](https://blog.lelonek.me/why-is-your-rails-application-still-coupled-to-activerecord-efe34d657c91)
 
 ## Gems
 [Gem Pessimistic Operator](https://robots.thoughtbot.com/rubys-pessimistic-operator)  
