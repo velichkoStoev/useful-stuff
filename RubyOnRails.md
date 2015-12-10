@@ -25,6 +25,7 @@
 
 ## Routing
 [Redirecting to Custom 404 and 500 Pages in Rails](http://easyactiverecord.com/blog/2014/08/19/redirecting-to-custom-404-and-500-pages-in-rails/)  
+[Params hash explained (StackOverflow)](http://stackoverflow.com/questions/6885990/rails-params-explained)
 
 ## Views
 [Add custom fields to your Devise views](http://jacopretorius.net/2014/03/adding-custom-fields-to-your-devise-user-model-in-rails-4.html)  
