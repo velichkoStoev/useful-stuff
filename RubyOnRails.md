@@ -34,6 +34,9 @@
 [Rails cache with examples](http://www.codelearn.org/blog/rails-cache-with-examples)  
 [How key-based cache expiration works](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)  
 
+## Administration
+[Custom action in Rails Admin](http://blog.paulrugelhiatt.com/ruby/rails/2014/10/27/rails-admin-custom-action-example.html)
+
 ## Database
 [How to use Rails migrations and schema](http://technotes.iangreenleaf.com/posts/2013-09-10-rails-migrations-and-schema.html)  
 
