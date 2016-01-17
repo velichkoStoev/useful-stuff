@@ -2,4 +2,5 @@
 [delete vs delete\[\] (StackOverflow)](http://stackoverflow.com/questions/4255598/delete-vs-delete)  
 [Templates](http://www.tutorialspoint.com/cplusplus/cpp_templates.htm)  
 [When should you use a class vs a struct (StackOverflow)](http://stackoverflow.com/questions/54585/when-should-you-use-a-class-vs-a-struct-in-c)  
-[Function declaration inside or outside hte class (StackOverflow)](http://stackoverflow.com/questions/9075931/function-declaration-inside-or-outside-the-class)
+[Function declaration inside or outside hte class (StackOverflow)](http://stackoverflow.com/questions/9075931/function-declaration-inside-or-outside-the-class)  
+[lvalues and rvalues](http://eli.thegreenplace.net/2011/12/15/understanding-lvalues-and-rvalues-in-c-and-c)
