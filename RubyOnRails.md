@@ -52,6 +52,9 @@
 ## Automation
 [Automated Tasks with Cron and Rake](http://tutorials.jumpstartlab.com/topics/systems/automation.html)  
 
+## Internationalization 
+[How to translate email messages' body using the I18n gem (StackOverflow)](http://stackoverflow.com/questions/8836859/how-to-translate-email-messages-body-using-the-i18n-gem)
+
 ## Good practices and optimizations
 [Keeping your Rails controllers DRY with services](https://blog.engineyard.com/2014/keeping-your-rails-controllers-dry-with-services)  
 [The Secret to Rails OO Design](http://blog.steveklabnik.com/posts/2011-09-06-the-secret-to-rails-oo-design)  
