@@ -5,4 +5,5 @@
 [Function declaration inside or outside the class (StackOverflow)](http://stackoverflow.com/questions/9075931/function-declaration-inside-or-outside-the-class)  
 [lvalues and rvalues](http://eli.thegreenplace.net/2011/12/15/understanding-lvalues-and-rvalues-in-c-and-c)  
 [Creating an object with or without 'new' (StackOverflow)](http://stackoverflow.com/questions/6337294/creating-an-object-with-or-without-new)  
-[When to use virtual destructors? (StackOverflow)](http://stackoverflow.com/questions/461203/when-to-use-virtual-destructors)
+[When to use virtual destructors? (StackOverflow)](http://stackoverflow.com/questions/461203/when-to-use-virtual-destructors)  
+[Why do we need virtual methods? (StackOverflow)](http://stackoverflow.com/questions/2391679/why-do-we-need-virtual-methods-in-c)
