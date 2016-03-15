@@ -6,4 +6,5 @@
 [lvalues and rvalues](http://eli.thegreenplace.net/2011/12/15/understanding-lvalues-and-rvalues-in-c-and-c)  
 [Creating an object with or without 'new' (StackOverflow)](http://stackoverflow.com/questions/6337294/creating-an-object-with-or-without-new)  
 [When to use virtual destructors? (StackOverflow)](http://stackoverflow.com/questions/461203/when-to-use-virtual-destructors)  
-[Why do we need virtual methods? (StackOverflow)](http://stackoverflow.com/questions/2391679/why-do-we-need-virtual-methods-in-c)
+[Why do we need virtual methods? (StackOverflow)](http://stackoverflow.com/questions/2391679/why-do-we-need-virtual-methods-in-c)  
+[How does the compilation-linking process work? (StackOverflow)](http://stackoverflow.com/questions/6264249/how-does-the-compilation-linking-process-work)
