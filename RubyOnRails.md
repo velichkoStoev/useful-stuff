@@ -15,6 +15,7 @@
 
 ## Security
 [What is the use of secret_key_base in Rails 4? (StackOverflow)](http://stackoverflow.com/questions/25426940/what-is-the-use-of-secret-key-base-in-rails-4)  
+[Cookies vs Sessions (StackOverflow)](http://stackoverflow.com/questions/15022497/cookies-vs-sessions-with-cookiestore)
 
 ## Validations
 [The perils of uniqueness validations](https://robots.thoughtbot.com/the-perils-of-uniqueness-validations)  
