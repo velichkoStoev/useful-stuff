@@ -8,4 +8,5 @@
 [When to use virtual destructors? (StackOverflow)](http://stackoverflow.com/questions/461203/when-to-use-virtual-destructors)  
 [Why do we need virtual methods? (StackOverflow)](http://stackoverflow.com/questions/2391679/why-do-we-need-virtual-methods-in-c)  
 [How does the compilation-linking process work? (StackOverflow)](http://stackoverflow.com/questions/6264249/how-does-the-compilation-linking-process-work)  
-[Why have header files and .cpp files? (StackOverflow)](http://stackoverflow.com/questions/333889/why-have-header-files-and-cpp-files-in-c)
+[Why have header files and .cpp files? (StackOverflow)](http://stackoverflow.com/questions/333889/why-have-header-files-and-cpp-files-in-c)  
+[Qt events and signal slots (StackOverflow)](http://stackoverflow.com/questions/3794649/qt-events-and-signal-slots)
