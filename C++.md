@@ -10,4 +10,5 @@
 [How does the compilation-linking process work? (StackOverflow)](http://stackoverflow.com/questions/6264249/how-does-the-compilation-linking-process-work)  
 [Why have header files and .cpp files? (StackOverflow)](http://stackoverflow.com/questions/333889/why-have-header-files-and-cpp-files-in-c)  
 [Qt events and signal slots (StackOverflow)](http://stackoverflow.com/questions/3794649/qt-events-and-signal-slots)  
-[How to install third party libraries (StackOverflow)](http://stackoverflow.com/questions/21942545/how-to-install-third-party-libraries)
+[How to install third party libraries (StackOverflow)](http://stackoverflow.com/questions/21942545/how-to-install-third-party-libraries)  
+[What's 'extern'?](http://www.cplusplus.com/forum/general/21368/)
