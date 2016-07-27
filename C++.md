@@ -11,4 +11,5 @@
 [Why have header files and .cpp files? (StackOverflow)](http://stackoverflow.com/questions/333889/why-have-header-files-and-cpp-files-in-c)  
 [Qt events and signal slots (StackOverflow)](http://stackoverflow.com/questions/3794649/qt-events-and-signal-slots)  
 [How to install third party libraries (StackOverflow)](http://stackoverflow.com/questions/21942545/how-to-install-third-party-libraries)  
-[What's 'extern'?](http://www.cplusplus.com/forum/general/21368/)
+[What's 'extern'?](http://www.cplusplus.com/forum/general/21368/)  
+[What is external and internal linkage (StackOverflow)](http://stackoverflow.com/questions/1358400/what-is-external-linkage-and-internal-linkage-in-c)  
