@@ -13,4 +13,5 @@
 [How to install third party libraries (StackOverflow)](http://stackoverflow.com/questions/21942545/how-to-install-third-party-libraries)  
 [What's 'extern'?](http://www.cplusplus.com/forum/general/21368/)  
 [What is external and internal linkage (StackOverflow)](http://stackoverflow.com/questions/1358400/what-is-external-linkage-and-internal-linkage-in-c)  
-[What's the purpose of Unions?](http://stackoverflow.com/questions/2310483/purpose-of-unions-in-c-and-c)
+[What's the purpose of Unions? (StackOverflow)](http://stackoverflow.com/questions/2310483/purpose-of-unions-in-c-and-c)  
+[What is the difference between const int*, const int * const, and int const *?](http://stackoverflow.com/questions/1143262/what-is-the-difference-between-const-int-const-int-const-and-int-const)
