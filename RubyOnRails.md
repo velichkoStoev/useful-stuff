@@ -10,6 +10,7 @@
 ## Authentication & Authorization
 [Sessions, cookies, flash, authentication, devise](http://www.theodinproject.com/ruby-on-rails/sessions-cookies-and-authentication)  
 [How to use Devise in Rails for authentication](http://www.gotealeaf.com/blog/how-to-use-devise-in-rails-for-authentication)  
+[Understanding authenticity token (StackOverflow)](http://stackoverflow.com/questions/941594/understanding-the-rails-authenticity-token)  
 [Where are session variables stored in Rails? (StackOverflow)](http://stackoverflow.com/questions/7318253/where-are-session-variables-stored-in-rails)  
 [How Rails sessions work](http://www.justinweiss.com/blog/2015/03/17/how-rails-sessions-work/)  
 
