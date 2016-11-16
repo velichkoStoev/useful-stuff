@@ -45,6 +45,7 @@
 ## Testing
 [Better specs (RSpec guide)](http://betterspecs.org/)  
 [FactoryGirl with polymorphic associations](http://markcharlesdesign.blogspot.com/2013/06/factorygirl-with-polymorphic.html)  
+[Sign in/out test helpers for Devise and Capybara](https://radavis.github.io/2014/09/24/sign-in-out-test-helpers-for-and-devise-and-capybara.html)  
 [Mocking with RSpec: Doubles and Expectations](https://semaphoreci.com/community/tutorials/mocking-with-rspec-doubles-and-expectations)  
 [let vs let!](https://www.relishapp.com/rspec/rspec-core/v/2-5/docs/helper-methods/let-and-let)  
 [Factory Girl tips](http://arjanvandergaag.nl/blog/factory_girl_tips.html)  
