@@ -67,6 +67,7 @@
 [Use Time.zone.now instead of Time.now](http://rails-bestpractices.com/posts/2014/10/22/use-time-zone-now-instead-of-time-now/)  
 [Delegating methods](http://simonecarletti.com/blog/2009/12/inside-ruby-on-rails-delegate/)  
 [update vs update_all vs update_attribute vs update_attributes](https://priyankapathak.wordpress.com/2010/08/21/difference-between-active-record-methods-update-update_all-update_attribute-update_attributes/)  
+[Decoupling Rails components](https://www.toptal.com/ruby-on-rails/decoupling-rails-components)
 
 ## Design Patterns
 [Hexagonal architecture](http://victorsavkin.com/post/42542190528/hexagonal-architecture-for-rails-developers)  
