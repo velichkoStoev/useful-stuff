@@ -1,5 +1,6 @@
 ## Setup
 [Installing Rails 4.2](http://railsapps.github.io/installing-rails.html)  
+[Installing Rails 5](http://railsapps.github.io/installing-rails.html)  
 [How To Setup Ruby on Rails with Postgres](https://www.digitalocean.com/community/tutorials/how-to-setup-ruby-on-rails-with-postgres)  
 
 ## MVC
@@ -58,6 +59,9 @@
 
 ## Internationalization 
 [How to translate email messages' body using the I18n gem (StackOverflow)](http://stackoverflow.com/questions/8836859/how-to-translate-email-messages-body-using-the-i18n-gem)
+
+## Deployment
+[Deploy your Rails app to AWS](https://www.sitepoint.com/deploy-your-rails-app-to-aws/)
 
 ## Good practices and optimizations
 [Keeping your Rails controllers DRY with services](https://blog.engineyard.com/2014/keeping-your-rails-controllers-dry-with-services)  
