@@ -33,6 +33,9 @@
 ## Views
 [Add custom fields to your Devise views](http://jacopretorius.net/2014/03/adding-custom-fields-to-your-devise-user-model-in-rails-4.html)  
 
+## Assets
+[Rails include external Javascript (StackOverflow)](http://stackoverflow.com/questions/12531783/rails-include-external-javascript)
+
 ## Caching
 [Rails cache with examples](http://www.codelearn.org/blog/rails-cache-with-examples)  
 [How key-based cache expiration works](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)  
