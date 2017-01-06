@@ -34,6 +34,7 @@
 [Add custom fields to your Devise views](http://jacopretorius.net/2014/03/adding-custom-fields-to-your-devise-user-model-in-rails-4.html)  
 
 ## Assets
+[Rails Assets Pipeline Best practices](https://launchschool.com/blog/rails-asset-pipeline-best-practices)  
 [Rails include external Javascript (StackOverflow)](http://stackoverflow.com/questions/12531783/rails-include-external-javascript)
 
 ## Caching
