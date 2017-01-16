@@ -19,5 +19,6 @@
 [Writing generics classes and generic methods](http://math.hws.edu/javanotes/c10/s5.html)  
 [What are the different steps involved in execution of a Java program](http://www.quora.com/What-are-the-different-steps-involved-in-execution-of-a-Java-program)  
 [Do subclasses inherit private fields? (StackOverflow)](http://stackoverflow.com/questions/4716040/do-subclasses-inherit-private-fields)  
-[How to work with wait(), notify() and notifyAll()](http://howtodoinjava.com/core-java/multi-threading/how-to-work-with-wait-notify-and-notifyall-in-java/)
+[How to work with wait(), notify() and notifyAll()](http://howtodoinjava.com/core-java/multi-threading/how-to-work-with-wait-notify-and-notifyall-in-java/)  
+[Where are class, object, reference vars stored (StackOverflow)](http://stackoverflow.com/questions/13624462/where-does-class-object-reference-variable-get-stored-in-java-in-heap-or-stac)
 
