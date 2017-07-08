@@ -14,6 +14,7 @@
 [Understanding authenticity token (StackOverflow)](http://stackoverflow.com/questions/941594/understanding-the-rails-authenticity-token)  
 [Where are session variables stored in Rails? (StackOverflow)](http://stackoverflow.com/questions/7318253/where-are-session-variables-stored-in-rails)  
 [How Rails sessions work](http://www.justinweiss.com/blog/2015/03/17/how-rails-sessions-work/)  
+[How to allow users login with both registered user and facebook account (StackOverflow)](https://stackoverflow.com/questions/21037877/how-to-allow-users-login-with-both-registered-account-and-facebook-account)  
 
 ## Security
 [What is the use of secret_key_base in Rails 4? (StackOverflow)](http://stackoverflow.com/questions/25426940/what-is-the-use-of-secret-key-base-in-rails-4)  
