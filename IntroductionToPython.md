@@ -224,4 +224,82 @@ The * operator produces a new tuple, list, or string that “repeats” the orig
 >>> “Hello” * 3
 ‘HelloHelloHello’
 ```
+## Mutability: Tuples vs. Lists
+
+Tuples are immutable!
+
+```python
+t = (23, ‘abc’, 4.56, (2,3), ‘def’)
+>>> t[2] = 3.14
+Traceback (most recent call last):
+ File "<pyshell#75>", line 1, in -toplevel-
+ tu[2] = 3.14
+TypeError: object doesn't support item assignment
+You can’t change a tuple.
+```
+
+You can make a fresh tuple and assign its reference to a previously used
+name.
+```python
+>>> t = (23, ‘abc’, 3.14, (2,3), ‘def’)
+```
+Lists are mutable!
+
+```python
+>>> li = [‘abc’, 23, 4.34, 23]
+>>> li[1] = 45
+>>> li
+[‘abc’, 45, 4.34, 23]
+```
+
+- We can change lists in place.
+- Name `li` still points to the same memory reference when we’re done.
+- The mutability of lists means that they aren’t as fast as tuples. 
+
+### Operations on lists only
+```python
+>>> li = [1, 11, 3, 4, 5]
+>>> li.append(‘a’) # Our first exposure to method syntax
+>>> li
+[1, 11, 3, 4, 5, ‘a’]
+>>> li.insert(2, ‘i’)
+>>>li
+[1, 11, ‘i’, 3, 4, 5, ‘a’]
+>>> li.extend([9, 8, 7])
+>>>li
+[1, 2, ‘i’, 3, 4, 5, ‘a’, 9, 8, 7]
+>>> li.append([10, 11, 12])
+>>> li
+[1, 2, ‘i’, 3, 4, 5, ‘a’, 9, 8, 7, [10, 11, 12]]
+>>> li = [‘a’, ‘b’, ‘c’, ‘b’]
+>>> li.index(‘b’) # index of first occurrence
+1
+>>> li.count(‘b’) # number of occurrences
+2
+>>> li.remove(‘b’) # remove first occurrence
+>>> li
+[‘a’, ‘c’, ‘b’]
+>>> li = [5, 2, 6, 8]
+>>> li.reverse() # reverse the list *in place*
+>>> li
+ [8, 6, 2, 5]
+>>> li.sort() # sort the list *in place*
+>>> li
+ [2, 5, 6, 8]
+```
+
+### Tuples vs Lists
+- Lists slower but more powerful than tuples.
+ - Lists can be modified, and they have lots of handy operations we can
+perform on them.
+- Tuples are immutable and have fewer features.
+
+To convert between tuples and lists use the list() and tuple()
+functions:
+```python
+li = list(tu)
+tu = tuple(li)
+```
+
+## Dictionaries
 
