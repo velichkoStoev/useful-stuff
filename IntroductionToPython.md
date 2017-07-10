@@ -24,12 +24,12 @@ Python is up and running!
 
 ```python
 x = 34 - 23   # A comment.
-y = “Hello”   # Another one.
+y = "Hello"   # Another one.
 z = 3.45
 
-if z == 3.45 or y == “Hello”:
+if z == 3.45 or y == "Hello":
   x = x + 1
-  y = y + “ World”          # String concat.
+  y = y + " World"          # String concat.
 
 print x
 print y
@@ -71,13 +71,13 @@ Whitespace is meaningful in Python: especially indentation and placement of newl
  ### Comments
  
  - Start comments with # – the rest of line is ignored.
- - Can include a “documentation string” as the first line of any new function or class that you define.
+ - Can include a "documentation string" as the first line of any new function or class that you define.
  - The development environment, debugger, and other tools use it: it’s good style to include one.
 
 ```python
 def my_function(x, y):
-  “““This is the docstring. This
-  function does blah blah blah.”””
+  """This is the docstring. This
+  function does blah blah blah."""
   # The code would go here...
 ```
 
@@ -113,7 +113,7 @@ NameError: name ‘y' is not defined
 3
 ```
 - For other data types (lists, dictionaries, user-defined types), assignment works differently.
-  - These datatypes are “mutable.” 
+  - These datatypes are "mutable." 
   - When we change these data, we do it in place.
   - We don’t copy them into a new memory address each time.
   - If we type y=x and then modify y, both x and y are changed.
@@ -148,22 +148,22 @@ NameError: name ‘y' is not defined
 ### Defining sequence types
 ```python
 >>> tu = (23, ‘abc’, 4.56, (2,3), ‘def’)
->>> li = [“abc”, 34, 4.34, 23]
->>> st = “Hello World”
+>>> li = ["abc", 34, 4.34, 23]
+>>> st = "Hello World"
 >>> st = ‘Hello World’
->>> st = “““This is a multi-line
-string that uses triple quotes.”””
+>>> st = """This is a multi-line
+string that uses triple quotes."""
 ```
 
-We can access individual members of a tuple, list, or string using square bracket “array” notation. Note that all of them are zero based.
+We can access individual members of a tuple, list, or string using square bracket "array" notation. Note that all of them are zero based.
 ```python
 >>> tu = (23, ‘abc’, 4.56, (2,3), ‘def’)
 >>> tu[1] # Second item in the tuple.
  ‘abc’
->>> li = [“abc”, 34, 4.34, 23]
+>>> li = ["abc", 34, 4.34, 23]
 >>> li[1] # Second item in the list.
  34
->>> st = “Hello World”
+>>> st = "Hello World"
 >>> st[1] # Second character in string.
  ‘e’
 ```
@@ -208,20 +208,20 @@ The + operator produces a new tuple, list, or string whose value is the concaten
  (1, 2, 3, 4, 5, 6)
 >>> [1, 2, 3] + [4, 5, 6]
  [1, 2, 3, 4, 5, 6]
->>> “Hello” + “ ” + “World”
+>>> "Hello" + " " + "World"
  ‘Hello World’
 ```
 
 ### The '*' operator
 
-The * operator produces a new tuple, list, or string that “repeats” the original content.
+The * operator produces a new tuple, list, or string that "repeats" the original content.
 
 ```python
 >>> (1, 2, 3) * 3
 (1, 2, 3, 1, 2, 3, 1, 2, 3)
 >>> [1, 2, 3] * 3
 [1, 2, 3, 1, 2, 3, 1, 2, 3]
->>> “Hello” * 3
+>>> "Hello" * 3
 ‘HelloHelloHello’
 ```
 ## Mutability: Tuples vs. Lists
@@ -370,12 +370,12 @@ def func(a, b, c=10, d=100):
 
 ```python
 if x == 3:
-  print “X equals 3.”
+  print "X equals 3."
 elif x == 2:
-  print “X equals 2.”
+  print "X equals 2."
 else:
-  print “X equals something else.”
-print “This is outside the ‘if’.”
+  print "X equals something else."
+print "This is outside the ‘if’."
 
 x = 3
 while x < 10:
@@ -383,20 +383,20 @@ while x < 10:
     x += 2
     continue
   x = x + 1
-  print “Still in the loop.”
+  print "Still in the loop."
   if x == 8:
     break
-print “Outside of the loop.”
+print "Outside of the loop."
 
 for x in range(10):
   if x > 7:
     x += 2
     continue
   x = x + 1
-  print “Still in the loop.”
+  print "Still in the loop."
   if x == 8:
     break
-print “Outside of the loop.”
+print "Outside of the loop."
 ```
 ## File I/O
 ```python
