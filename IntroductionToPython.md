@@ -43,7 +43,7 @@ print y
 - Logical operators are words (and, or, not) not symbols
 - The basic printing command is print.
 - The first assignment to a variable creates it.
-- Variable types don’t need to be declared.
+- Variable types don't need to be declared.
 - Python figures out the variable types on its own.
 
 ### Basic datatypes
@@ -72,7 +72,7 @@ Whitespace is meaningful in Python: especially indentation and placement of newl
  
  - Start comments with # – the rest of line is ignored.
  - Can include a "documentation string" as the first line of any new function or class that you define.
- - The development environment, debugger, and other tools use it: it’s good style to include one.
+ - The development environment, debugger, and other tools use it: it's good style to include one.
 
 ```python
 def my_function(x, y):
@@ -89,7 +89,7 @@ Binding a name to a datatype is called assignment.
 x = 3
 str = 'Aveiro'
 ```
-If you try to access a name before it’s been properly created (by placing it on the left side of an assignment), you’ll get an
+If you try to access a name before it's been properly created (by placing it on the left side of an assignment), you'll get an
 error. 
 
 ```python
@@ -97,7 +97,7 @@ error.
 Traceback (most recent call last):
  File "<pyshell#16>", line 1, in -toplevel-
  y
-NameError: name ‘y' is not defined
+NameError: name 'y' is not defined
 >>> y = 3
 >>> y
 3
@@ -115,7 +115,7 @@ NameError: name ‘y' is not defined
 - For other data types (lists, dictionaries, user-defined types), assignment works differently.
   - These datatypes are "mutable." 
   - When we change these data, we do it in place.
-  - We don’t copy them into a new memory address each time.
+  - We don't copy them into a new memory address each time.
   - If we type y=x and then modify y, both x and y are changed.
   
 ```python
@@ -147,31 +147,31 @@ NameError: name ‘y' is not defined
 
 ### Defining sequence types
 ```python
->>> tu = (23, ‘abc’, 4.56, (2,3), ‘def’)
+>>> tu = (23, 'abc', 4.56, (2,3), 'def')
 >>> li = ["abc", 34, 4.34, 23]
 >>> st = "Hello World"
->>> st = ‘Hello World’
+>>> st = 'Hello World'
 >>> st = """This is a multi-line
 string that uses triple quotes."""
 ```
 
 We can access individual members of a tuple, list, or string using square bracket "array" notation. Note that all of them are zero based.
 ```python
->>> tu = (23, ‘abc’, 4.56, (2,3), ‘def’)
+>>> tu = (23, 'abc', 4.56, (2,3), 'def')
 >>> tu[1] # Second item in the tuple.
- ‘abc’
+ 'abc'
 >>> li = ["abc", 34, 4.34, 23]
 >>> li[1] # Second item in the list.
  34
 >>> st = "Hello World"
 >>> st[1] # Second character in string.
- ‘e’
+ 'e'
 ```
 We can use both positive and negative indices to access values in a sequence object.
 ```python
->>> t = (23, ‘abc’, 4.56, (2,3), ‘def’)
+>>> t = (23, 'abc', 4.56, (2,3), 'def')
 >>> t[1]
-‘abc’
+'abc'
 >>> t[-3]
 4.56 
 ```
@@ -209,7 +209,7 @@ The + operator produces a new tuple, list, or string whose value is the concaten
 >>> [1, 2, 3] + [4, 5, 6]
  [1, 2, 3, 4, 5, 6]
 >>> "Hello" + " " + "World"
- ‘Hello World’
+ 'Hello World'
 ```
 
 ### The '*' operator
@@ -222,63 +222,63 @@ The * operator produces a new tuple, list, or string that "repeats" the original
 >>> [1, 2, 3] * 3
 [1, 2, 3, 1, 2, 3, 1, 2, 3]
 >>> "Hello" * 3
-‘HelloHelloHello’
+'HelloHelloHello'
 ```
 ## Mutability: Tuples vs. Lists
 
 Tuples are immutable!
 
 ```python
-t = (23, ‘abc’, 4.56, (2,3), ‘def’)
+t = (23, 'abc', 4.56, (2,3), 'def')
 >>> t[2] = 3.14
 Traceback (most recent call last):
  File "<pyshell#75>", line 1, in -toplevel-
  tu[2] = 3.14
 TypeError: object doesn't support item assignment
-You can’t change a tuple.
+You can't change a tuple.
 ```
 
 You can make a fresh tuple and assign its reference to a previously used
 name.
 ```python
->>> t = (23, ‘abc’, 3.14, (2,3), ‘def’)
+>>> t = (23, 'abc', 3.14, (2,3), 'def')
 ```
 Lists are mutable!
 
 ```python
->>> li = [‘abc’, 23, 4.34, 23]
+>>> li = ['abc', 23, 4.34, 23]
 >>> li[1] = 45
 >>> li
-[‘abc’, 45, 4.34, 23]
+['abc', 45, 4.34, 23]
 ```
 
 - We can change lists in place.
-- Name `li` still points to the same memory reference when we’re done.
-- The mutability of lists means that they aren’t as fast as tuples. 
+- Name `li` still points to the same memory reference when we're done.
+- The mutability of lists means that they aren't as fast as tuples. 
 
 ### Operations on lists only
 ```python
 >>> li = [1, 11, 3, 4, 5]
->>> li.append(‘a’) # Our first exposure to method syntax
+>>> li.append('a') # Our first exposure to method syntax
 >>> li
-[1, 11, 3, 4, 5, ‘a’]
->>> li.insert(2, ‘i’)
+[1, 11, 3, 4, 5, 'a']
+>>> li.insert(2, 'i')
 >>>li
-[1, 11, ‘i’, 3, 4, 5, ‘a’]
+[1, 11, 'i', 3, 4, 5, 'a']
 >>> li.extend([9, 8, 7])
 >>>li
-[1, 2, ‘i’, 3, 4, 5, ‘a’, 9, 8, 7]
+[1, 2, 'i', 3, 4, 5, 'a', 9, 8, 7]
 >>> li.append([10, 11, 12])
 >>> li
-[1, 2, ‘i’, 3, 4, 5, ‘a’, 9, 8, 7, [10, 11, 12]]
->>> li = [‘a’, ‘b’, ‘c’, ‘b’]
->>> li.index(‘b’) # index of first occurrence
+[1, 2, 'i', 3, 4, 5, 'a', 9, 8, 7, [10, 11, 12]]
+>>> li = ['a', 'b', 'c', 'b']
+>>> li.index('b') # index of first occurrence
 1
->>> li.count(‘b’) # number of occurrences
+>>> li.count('b') # number of occurrences
 2
->>> li.remove(‘b’) # remove first occurrence
+>>> li.remove('b') # remove first occurrence
 >>> li
-[‘a’, ‘c’, ‘b’]
+['a', 'c', 'b']
 >>> li = [5, 2, 6, 8]
 >>> li.reverse() # reverse the list *in place*
 >>> li
@@ -311,36 +311,36 @@ Dictionaries store a mapping between a set of keys and a set of values.
  - You can define, modify, view, lookup, and delete the key-value pairs in the dictionary.
  
  ```python
->>> d = {‘user’:‘bozo’, ‘pswd’:1234}
->>> d[‘user’]
-‘bozo’
->>> d[‘pswd’]
+>>> d = {'user':'bozo', 'pswd':1234}
+>>> d['user']
+'bozo'
+>>> d['pswd']
 1234
->>> d[‘bozo’]
+>>> d['bozo']
 Traceback (innermost last):
- File ‘<interactive input>’ line 1, in ?
+ File '<interactive input>' line 1, in ?
 KeyError: bozo
->>> d = {‘user’:‘bozo’, ‘pswd’:1234}
->>> d[‘user’] = ‘clown’
+>>> d = {'user':'bozo', 'pswd':1234}
+>>> d['user'] = 'clown'
 >>> d
-{‘user’:‘clown’, ‘pswd’:1234}
->>> d[‘id’] = 45
+{'user':'clown', 'pswd':1234}
+>>> d['id'] = 45
 >>> d
-{‘user’:‘clown’, ‘id’:45, ‘pswd’:1234}
->>> d = {‘user’:‘bozo’, ‘p’:1234, ‘i’:34}
->>> del d[‘user’] # Remove one.
+{'user':'clown', 'id':45, 'pswd':1234}
+>>> d = {'user':'bozo', 'p':1234, 'i':34}
+>>> del d['user'] # Remove one.
 >>> d
-{‘p’:1234, ‘i’:34}
+{'p':1234, 'i':34}
 >>> d.clear() # Remove all.
 >>> d
 {}
->>> d = {‘user’:‘bozo’, ‘p’:1234, ‘i’:34}
+>>> d = {'user':'bozo', 'p':1234, 'i':34}
 >>> d.keys() # List of keys.
-[‘user’, ‘p’, ‘i’]
+['user', 'p', 'i']
 >>> d.values() # List of values.
-[‘bozo’, 1234, 34]
+['bozo', 1234, 34]
 >>> d.items() # List of item tuples.
-[(‘user’,‘bozo’), (‘p’,1234), (‘i’,34)] 
+[('user','bozo'), ('p',1234), ('i',34)] 
 ```
 ## Functions
 
@@ -375,7 +375,7 @@ elif x == 2:
   print "X equals 2."
 else:
   print "X equals something else."
-print "This is outside the ‘if’."
+print "This is outside the 'if'."
 
 x = 3
 while x < 10:
@@ -400,7 +400,7 @@ print "Outside of the loop."
 ```
 ## File I/O
 ```python
-fileptr = open(‘filename’)
+fileptr = open('filename')
 somestring = fileptr.read()
 for line in fileptr:
  print line
