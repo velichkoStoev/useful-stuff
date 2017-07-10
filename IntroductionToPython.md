@@ -303,3 +303,151 @@ tu = tuple(li)
 
 ## Dictionaries
 
+Dictionaries store a mapping between a set of keys and a set of values.
+
+ - Keys can be any immutable type.   
+ - Values can be any type
+ - A single dictionary can store values of different types
+ - You can define, modify, view, lookup, and delete the key-value pairs in the dictionary.
+ 
+ ```python
+>>> d = {‘user’:‘bozo’, ‘pswd’:1234}
+>>> d[‘user’]
+‘bozo’
+>>> d[‘pswd’]
+1234
+>>> d[‘bozo’]
+Traceback (innermost last):
+ File ‘<interactive input>’ line 1, in ?
+KeyError: bozo
+>>> d = {‘user’:‘bozo’, ‘pswd’:1234}
+>>> d[‘user’] = ‘clown’
+>>> d
+{‘user’:‘clown’, ‘pswd’:1234}
+>>> d[‘id’] = 45
+>>> d
+{‘user’:‘clown’, ‘id’:45, ‘pswd’:1234}
+>>> d = {‘user’:‘bozo’, ‘p’:1234, ‘i’:34}
+>>> del d[‘user’] # Remove one.
+>>> d
+{‘p’:1234, ‘i’:34}
+>>> d.clear() # Remove all.
+>>> d
+{}
+>>> d = {‘user’:‘bozo’, ‘p’:1234, ‘i’:34}
+>>> d.keys() # List of keys.
+[‘user’, ‘p’, ‘i’]
+>>> d.values() # List of values.
+[‘bozo’, 1234, 34]
+>>> d.items() # List of item tuples.
+[(‘user’,‘bozo’), (‘p’,1234), (‘i’,34)] 
+```
+## Functions
+
+ - def creates a function and assigns it a name
+ - return sends a result back to the caller
+ - Arguments are passed by assignment
+ - Arguments and return types are not declared
+``` 
+ def <name>(arg1, arg2, ..., argN):
+<statements>
+return <value>```
+```python
+def times(x,y):
+return x*y
+```
+ - Can define defaults for arguments that need not be passed
+```python
+def func(a, b, c=10, d=100):
+  print a, b, c, d
+>>> func(1,2)
+1 2 10 100
+>>> func(1,2,3,4)
+1,2,3,4
+```
+
+## Control of flow
+
+```python
+if x == 3:
+  print “X equals 3.”
+elif x == 2:
+  print “X equals 2.”
+else:
+  print “X equals something else.”
+print “This is outside the ‘if’.”
+
+x = 3
+while x < 10:
+  if x > 7:
+    x += 2
+    continue
+  x = x + 1
+  print “Still in the loop.”
+  if x == 8:
+    break
+print “Outside of the loop.”
+
+for x in range(10):
+  if x > 7:
+    x += 2
+    continue
+  x = x + 1
+  print “Still in the loop.”
+  if x == 8:
+    break
+print “Outside of the loop.”
+```
+## File I/O
+```python
+fileptr = open(‘filename’)
+somestring = fileptr.read()
+for line in fileptr:
+ print line
+fileptr.close()
+```
+
+
+## Classes and objects
+
+### What is a class?
+A blueprint for creating a new datatype.
+
+### What is an Object?
+A software item that contains variables and methods. An instance of a class.
+
+```python`
+class atom(object):
+  def __init__(self,atno,x,y,z):
+    self.atno = atno
+    self.position = (x,y,z)
+    
+  def symbol(self):
+    return Atno_to_Symbol[atno]
+
+  def __repr__(self): # overloads printing
+    return '%d %10.4f %10.4f %10.4f' % (self.atno, self.position[0], self.position[1],self.position[2])
+
+>>> at = atom(6,0.0,1.0,2.0)
+>>> print at
+6 0.0000 1.0000 2.0000
+>>> at.symbol()
+'C'
+```
+### Public and private data
+In Python anything with two leading underscores is private
+ ```__a, __my_variable```
+- Anything with one leading underscore is semiprivate, and you should feel guilty accessing this data directly.
+ ```_b```
+ 
+ ### Exceptions
+```python
+>>> try:
+...   1 / 0
+... except:
+...   print('That was silly!')
+... finally:
+...   print('This gets executed no matter what')
+...
+That was silly!
+This gets executed no matter what```
