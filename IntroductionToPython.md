@@ -348,14 +348,18 @@ KeyError: bozo
  - return sends a result back to the caller
  - Arguments are passed by assignment
  - Arguments and return types are not declared
+
 ``` 
- def <name>(arg1, arg2, ..., argN):
-<statements>
-return <value>```
+def <name>(arg1, arg2, ..., argN):
+  <statements>
+  return <value>
+```
+
 ```python
 def times(x,y):
-return x*y
+  return x*y
 ```
+
  - Can define defaults for arguments that need not be passed
 ```python
 def func(a, b, c=10, d=100):
