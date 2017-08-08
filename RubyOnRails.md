@@ -84,6 +84,9 @@
 [Hexagonal architecture](http://victorsavkin.com/post/42542190528/hexagonal-architecture-for-rails-developers)  
 [Repository pattern](https://blog.lelonek.me/why-is-your-rails-application-still-coupled-to-activerecord-efe34d657c91)
 
+## Architecture
+[Rails and SOA - do I really need to have this big app?](http://blog.arkency.com/2013/12/rails-and-soa-do-i-really-need-to-have-this-big-app/)
+
 ## Gems
 [Gem Pessimistic Operator](https://robots.thoughtbot.com/rubys-pessimistic-operator)  
 [Why use 'bundle exec'? (StackOverflow)](http://stackoverflow.com/questions/8275885/use-bundle-exec-rake-or-just-rake)  
