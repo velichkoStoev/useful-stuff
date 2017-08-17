@@ -96,3 +96,4 @@
 
 ## Others
 [Escape velocity in Github](https://github.com/blog/1475-escape-velocity)  
+[Auto-load](https://robots.thoughtbot.com/auto-load)
