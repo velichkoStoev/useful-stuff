@@ -3,4 +3,5 @@
 [Fast Forward Git Merge](http://ariya.ofilabs.com/2013/09/fast-forward-git-merge.html)  
 [How to write good commit messages](http://chris.beams.io/posts/git-commit/)  
 [How to commit a change with both message and description using the command line (StackOverflow)](http://stackoverflow.com/questions/16122234/how-to-commit-a-change-with-both-message-and-description-from-the-command-li)  
-[Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+[Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)  
+[Squashing Github pull request into a single commit](https://eli.thegreenplace.net/2014/02/19/squashing-github-pull-requests-into-a-single-commit)
