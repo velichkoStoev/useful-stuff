@@ -93,6 +93,7 @@
 [Delete Paperclip attachment (StackOverflow)](http://stackoverflow.com/questions/4435826/rails-paperclip-how-to-delete-attachment)  
 [Rails 4: A look at Turbolinks](http://blog.teamtreehouse.com/rails-4-a-look-at-turbolinks)  
 [What's the 'environment' task in Rake? (StackOverflow)](http://stackoverflow.com/questions/7044714/whats-the-environment-task-in-rake)  
+[Understanding ruby load, require, gems, bundler and Rails autoloading](https://medium.com/@connorstack/understanding-ruby-load-require-gems-bundler-and-rails-autoloading-from-the-bottom-up-3b422902ca0)
 
 ## Others
 [Escape velocity in Github](https://github.com/blog/1475-escape-velocity)  
