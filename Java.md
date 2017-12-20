@@ -20,5 +20,6 @@
 [What are the different steps involved in execution of a Java program](http://www.quora.com/What-are-the-different-steps-involved-in-execution-of-a-Java-program)  
 [Do subclasses inherit private fields? (StackOverflow)](http://stackoverflow.com/questions/4716040/do-subclasses-inherit-private-fields)  
 [How to work with wait(), notify() and notifyAll()](http://howtodoinjava.com/core-java/multi-threading/how-to-work-with-wait-notify-and-notifyall-in-java/)  
-[Where are class, object, reference vars stored (StackOverflow)](http://stackoverflow.com/questions/13624462/where-does-class-object-reference-variable-get-stored-in-java-in-heap-or-stac)
+[Where are class, object, reference vars stored (StackOverflow)](http://stackoverflow.com/questions/13624462/where-does-class-object-reference-variable-get-stored-in-java-in-heap-or-stac)  
+[String is immutable - what exactly is the meaning (StackOverflow)](https://stackoverflow.com/questions/8798403/string-is-immutable-what-exactly-is-the-meaning)
 
