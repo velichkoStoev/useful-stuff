@@ -57,7 +57,8 @@
 [Factory Girl tips](http://arjanvandergaag.nl/blog/factory_girl_tips.html)  
 [spec_helper vs rails_helper](http://stackoverflow.com/questions/24145329/how-is-spec-rails-helper-rb-different-from-spec-spec-helper-rb-do-i-need-it)  
 [Stub method only once (StackOverflow)](http://stackoverflow.com/questions/18369010/stub-method-only-on-the-first-call-with-rspec)  
-[How to test mailers in Rails 3](https://blog.lucascaton.com.br/2010/10/25/how-to-test-mailers-in-rails-3-with-rspec/)
+[How to test mailers in Rails 3](https://blog.lucascaton.com.br/2010/10/25/how-to-test-mailers-in-rails-3-with-rspec/)  
+[Simulating a transient network failure (or how to stub raising an exception and then returning a value)](https://relishapp.com/rspec/rspec-mocks/v/3-5/docs/configuring-responses/block-implementation#simulating-a-transient-network-failure)  
 
 ## Automation
 [Automated Tasks with Cron and Rake](http://tutorials.jumpstartlab.com/topics/systems/automation.html)  
